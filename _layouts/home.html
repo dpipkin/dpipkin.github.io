@@ -18,6 +18,11 @@ layout: default
         </h2>
       </li>
     {% endfor %}
+    {% if site.posts == empty %}
+      <li>
+        <span class="post-meta">Posts will be coming soon!</span>
+      </li>
+    {% endif %}
   </ul>
 
 </div>
